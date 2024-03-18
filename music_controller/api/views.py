@@ -6,3 +6,4 @@ from .models import Room
 class RoomView(generics.CreateAPIView):
     gueryset = Room.objects.all()
     serializer_class = RoomSerializer
+
